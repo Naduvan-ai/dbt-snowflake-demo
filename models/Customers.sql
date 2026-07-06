@@ -1,2 +1,2 @@
-select * 
-from DBT_DEMO.RAW.CUSTOMERS
+select  * 
+from {{ source('raw','CUSTOMERS')}}
